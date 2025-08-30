@@ -1,0 +1,92 @@
+[
+  {
+    "name": "horario_funcionamento",
+    "description": "Informa horários de funcionamento da empresa",
+    "keywords": ["horário", "funciona", "funcionamento", "aberto", "fechado", "atendimento", "quando"],
+    "context": "A empresa funciona de segunda a sexta-feira, das 8h às 18h. Fazemos uma pausa para o almoço entre 12h e 13h.",
+    "response_template": "Nosso horário de funcionamento é de **segunda a sexta-feira, das 8h às 18h**. Fazemos uma pausa para o almoço entre 12h e 13h.\nPosso ajudar com mais alguma informação?",
+    "priority": "high",
+    "enabled": true
+  },
+  {
+    "name": "servicos_oferecidos",
+    "description": "Lista os serviços oferecidos pela empresa",
+    "keywords": ["serviços", "oferece", "faz", "trabalha", "especialidade", "atendimento"],
+    "context": "Oferecemos consultoria em nutrição, planos alimentares personalizados, acompanhamento nutricional, e atendimento online.",
+    "response_template": "Nossos principais serviços incluem:\n\n• **Consultoria Nutricional** - Avaliação completa e orientações personalizadas\n• **Planos Alimentares** - Cardápios sob medida para seus objetivos\n• **Acompanhamento Contínuo** - Monitoramento e ajustes regulares\n• **Atendimento Online** - Consultas por videochamada\n\nGostaria de saber mais sobre algum serviço específico?",
+    "priority": "high",
+    "enabled": true
+  },
+  {
+    "name": "agendamento_consulta",
+    "description": "Orienta sobre como agendar consultas",
+    "keywords": ["agendar", "consulta", "marcar", "horário", "disponibilidade", "agenda"],
+    "context": "Para agendar consultas, o cliente pode ligar, enviar WhatsApp ou usar nosso sistema online. Temos horários disponíveis de segunda a sexta.",
+    "response_template": "Para agendar sua consulta, você pode:\n\n📞 **Ligar**: (11) 9999-9999\n📱 **WhatsApp**: (11) 9999-9999\n💻 **Online**: www.exemplo.com/agendamento\n\nTemos horários disponíveis de segunda a sexta-feira. Qual forma de contato prefere?",
+    "priority": "high",
+    "enabled": true
+  },
+  {
+    "name": "precos_valores",
+    "description": "Informa sobre preços e valores dos serviços",
+    "keywords": ["preço", "valor", "custa", "quanto", "investimento", "pagamento"],
+    "context": "Consulta individual: R$ 150. Pacote 3 consultas: R$ 400. Plano mensal: R$ 300. Aceitamos cartão, PIX e parcelamento.",
+    "response_template": "Nossos valores são:\n\n💰 **Consulta Individual**: R$ 150\n📦 **Pacote 3 Consultas**: R$ 400 (economia de R$ 50)\n📅 **Plano Mensal**: R$ 300 (inclui acompanhamento)\n\n**Formas de Pagamento**:\n• PIX (5% desconto)\n• Cartão de crédito (até 3x sem juros)\n• Cartão de débito\n\nGostaria de mais detalhes sobre algum plano?",
+    "priority": "medium",
+    "enabled": true
+  },
+  {
+    "name": "localizacao_endereco",
+    "description": "Informa localização e endereço",
+    "keywords": ["onde", "endereço", "localização", "fica", "local", "região"],
+    "context": "Estamos localizados na Rua das Flores, 123 - Centro, São Paulo/SP. Próximo ao metrô Sé, com estacionamento disponível.",
+    "response_template": "📍 **Nosso endereço**:\nRua das Flores, 123 - Centro\nSão Paulo/SP - CEP: 01000-000\n\n🚇 **Como chegar**:\n• Metrô Sé (5 min caminhando)\n• Ônibus: linhas 100, 200, 300\n\n🚗 **Estacionamento**: Disponível no local\n\nPrecisa de mais orientações para chegar?",
+    "priority": "medium",
+    "enabled": true
+  },
+  {
+    "name": "contato_informacoes",
+    "description": "Fornece informações de contato",
+    "keywords": ["contato", "telefone", "whatsapp", "email", "falar"],
+    "context": "Telefone: (11) 9999-9999, WhatsApp: (11) 9999-9999, Email: contato@exemplo.com, Site: www.exemplo.com",
+    "response_template": "📞 **Nossos contatos**:\n\n• **Telefone/WhatsApp**: (11) 9999-9999\n• **Email**: contato@exemplo.com\n• **Site**: www.exemplo.com\n• **Instagram**: @exemplo_nutricao\n\n⏰ **Horário de atendimento**: Segunda a sexta, 8h às 18h\n\nComo prefere entrar em contato?",
+    "priority": "medium",
+    "enabled": true
+  },
+  {
+    "name": "emergencia_urgencia",
+    "description": "Orienta em casos de emergência ou urgência",
+    "keywords": ["emergência", "urgente", "urgência", "socorro", "ajuda", "problema"],
+    "context": "Em casos de emergência médica, orientamos procurar atendimento médico imediato. Para urgências nutricionais, temos plantão via WhatsApp.",
+    "response_template": "🚨 **Em caso de emergência médica**, procure imediatamente:\n• SAMU: 192\n• Pronto Socorro mais próximo\n• UPA (Unidade de Pronto Atendimento)\n\n📱 **Para urgências nutricionais**:\nTemos plantão via WhatsApp: (11) 9999-9999\n\n⚠️ **Importante**: Não substitua atendimento médico por orientação nutricional em emergências.",
+    "priority": "high",
+    "enabled": true
+  },
+  {
+    "name": "politica_cancelamento",
+    "description": "Explica política de cancelamento e reagendamento",
+    "keywords": ["cancelar", "reagendar", "desmarcar", "política", "antecedência"],
+    "context": "Cancelamentos devem ser feitos com 24h de antecedência. Reagendamentos são gratuitos. Cancelamentos em cima da hora são cobrados.",
+    "response_template": "📋 **Política de Cancelamento**:\n\n✅ **Cancelamento gratuito**: até 24h antes\n🔄 **Reagendamento**: gratuito (até 24h antes)\n⚠️ **Cancelamento tardio**: cobrança de 50% do valor\n❌ **Falta sem aviso**: cobrança integral\n\n📞 **Para cancelar/reagendar**:\nLigue ou mande WhatsApp: (11) 9999-9999\n\nPrecisa cancelar ou reagendar alguma consulta?",
+    "priority": "low",
+    "enabled": true
+  },
+  {
+    "name": "primeira_consulta",
+    "description": "Explica como funciona a primeira consulta",
+    "keywords": ["primeira", "consulta", "como", "funciona", "avaliação", "inicial"],
+    "context": "A primeira consulta inclui anamnese completa, avaliação antropométrica, análise de exames e elaboração do plano inicial. Duração: 60 minutos.",
+    "response_template": "👩‍⚕️ **Primeira Consulta - O que esperar**:\n\n📋 **Anamnese completa** (20 min)\n• Histórico de saúde\n• Hábitos alimentares\n• Objetivos e metas\n\n📏 **Avaliação física** (15 min)\n• Medidas antropométricas\n• Composição corporal\n\n🔬 **Análise de exames** (10 min)\n• Exames laboratoriais recentes\n• Avaliação clínica\n\n📝 **Plano inicial** (15 min)\n• Orientações personalizadas\n• Primeiras recomendações\n\n⏱️ **Duração total**: 60 minutos\n💰 **Investimento**: R$ 150\n\nJá tem exames recentes para trazer?",
+    "priority": "medium",
+    "enabled": true
+  },
+  {
+    "name": "plano_alimentar",
+    "description": "Explica sobre os planos alimentares oferecidos",
+    "keywords": ["plano", "alimentar", "cardápio", "dieta", "menu", "refeições"],
+    "context": "Oferecemos planos alimentares personalizados, com cardápios semanais, lista de compras e receitas. Adaptados para objetivos específicos.",
+    "response_template": "🍽️ **Planos Alimentares Personalizados**:\n\n📅 **Cardápio semanal completo**\n• Café da manhã, almoço, jantar\n• Lanches intermediários\n• Opções de substituição\n\n🛒 **Lista de compras organizada**\n• Por categoria de alimento\n• Quantidades específicas\n• Dicas de onde comprar\n\n👨‍🍳 **Receitas incluídas**\n• Preparos práticos\n• Tempo de preparo\n• Valor nutricional\n\n🎯 **Adaptado para seus objetivos**:\n• Emagrecimento\n• Ganho de massa\n• Manutenção\n• Condições específicas\n\nQual é seu objetivo principal?",
+    "priority": "high",
+    "enabled": true
+  }
+]
